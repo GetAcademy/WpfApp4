@@ -10,7 +10,7 @@ namespace WpfApp4
         public static void Main(string[] args)
         {
             //var clicker = new SimpleClicker();
-            var clicker = new NiceClicker();
+            var clicker = new ClickerPanel();
             var app = new Application();
             var window = new Window();
             window.Content = clicker;
